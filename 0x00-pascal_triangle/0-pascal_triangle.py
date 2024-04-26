@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """main class"""
 
+
 def pascal_triangle(n):
     """class triangle"""
     
