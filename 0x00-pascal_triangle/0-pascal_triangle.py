@@ -4,7 +4,7 @@
 
 def pascal_triangle(n):
     """class triangle"""
-    
+
     triangle = []
     for x in range(n):
         row = []
