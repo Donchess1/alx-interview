@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 
-"""coin change using greedy algorithm"""
+"""coin change using dynamic programming"""
 
 
 def makeChange(coins, total):
+    if total <= 0:
+        return 0
     trial = [float('inf')] * (total+1)   # creating default counter list
     trial[0] = 0   # zeroing the first element
     for coin in coins:
